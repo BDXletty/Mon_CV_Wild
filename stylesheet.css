@@ -1,0 +1,94 @@
+html {
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: rgb(104, 187, 285);
+     width: 1030px;
+     margin: 0 auto;
+    }
+    
+header {
+    background-color: #AFE4F4;
+    width: 1030px;
+    border: 1px solid #aaa;
+    margin: 15px 0;
+    }
+#container {
+    display: flex;
+    background-color: #AFE4F4;
+    width: 1000px;
+    padding: 30px 15px 20px 15px;
+    border: 1px solid #aaa;
+    
+} 
+#left-box {
+    background-color: rgb(9, 30, 45);
+    width: 30%;
+    border: 1px solid #aaa;
+    color: white;
+    padding : 40px 15px 15px 15px;
+}   
+#right-box {
+    background-color: rgb(23, 187, 285);
+    width: 70%;
+    margin-left: 15px;
+    padding: 40px 15px 15px 15px;
+    border: 1px solid #aaa;
+ }
+#experiences-box, #studies-box  {
+    background-color: white;
+    color: #005068;
+    border: 1px solid #aaa;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.experience {
+    background-color: #005068;
+    color: white;
+    padding : 10px;
+   }
+.study {
+    background-color: #006845;
+    color: white;
+     padding : 10px;
+}
+footer {
+    background-color: #AFE4F4;
+    height: 100px;
+    margin: 15px 0;
+}
+
+/* titres*/
+h1 {
+    color : #005068;
+    text-align: center;
+  } 
+h2 {
+    color : #005068;
+    text-align: left;
+    text-transform: uppercase;
+  }
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* left-box*/
+figure {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+img { 
+    max-width: 250px;
+}
+#left-box p {
+    text-align:justify;
+}
+.contact, .langue, .loisir { 
+    list-style-type: circle;
+    margin-top: 30px;
+    line-height: 25px;
+}
